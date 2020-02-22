@@ -1,0 +1,55 @@
+.markdown-section {
+    p {
+        margin-bottom: 0.5rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 600;
+        line-height: 1.25;
+        margin-bottom: 16px;
+        margin-top: 24px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.25em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+
+    h5 {
+        font-size: .875em;
+    }
+
+    h6 {
+        color: #6a737d;
+        font-size: .85em;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        font-weight: inherit;
+    }
+
+    a {
+        @apply text-blue-600 underline;
+    }
+    ul {
+        @apply list-disc list-outside ml-8;
+    }
+    blockquote {
+        @apply border-l-4 border-gray-400 pl-4;
+    }
+}

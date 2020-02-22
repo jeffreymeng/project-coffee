@@ -1,0 +1,12 @@
+/* TODO maybe show this in a mobile-friendly way? */
+.sidenav__container {
+    display: none;
+}
+
+@screen md {
+    .sidenav__container {
+        display: block;
+        width: 20rem;
+        @apply border-r border-gray-300;
+    }
+}

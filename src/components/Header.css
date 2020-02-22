@@ -1,0 +1,12 @@
+@media(max-width: 1023px) {
+    .nav {
+        @apply overflow-hidden absolute left-0 right-0;
+        transition: max-height 0.2s;
+    }
+    .nav-show {
+        max-height: 270px;
+    }
+    .nav-hide {
+        max-height: 0;
+    }
+}

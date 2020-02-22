@@ -1,0 +1,37 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+.btn {
+    @apply transition py-2 px-4 rounded;
+}
+@screen sm {
+    .btn {
+        @apply py-3 px-6;
+    }
+}
+
+.btn-purple {
+    @apply text-purple-100 bg-purple-900 border-2 border-purple-900;
+}
+.btn-purple:hover {
+    @apply bg-purple-100 border-purple-100 text-purple-800;
+}
+
+.btn-purple-inverse {
+    @apply text-purple-100  border-2 border-purple-100;
+}
+.btn-purple-inverse:hover {
+    @apply bg-purple-100 text-purple-800;
+}
+
+@tailwind utilities;
+
+.transition {
+    transition: color 0.15s, background-color 0.15s, border 0.15s;
+}
+
+.min-h-screen-nav {
+    min-height: calc(100vh - 64px);
+}
